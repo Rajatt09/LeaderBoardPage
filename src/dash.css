@@ -1,0 +1,42 @@
+.dash {
+  width: "100%";
+  display: "flex";
+  justify-content: "space-between";
+  align-items: "center";
+  /* display: none; */
+}
+
+#box2 {
+  display: none;
+}
+
+.drop {
+  display: "flex";
+  align-items: "center";
+}
+
+.drop2 {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #box1 {
+    display: none;
+  }
+  .drop {
+    display: none;
+  }
+  .drop2 {
+    display: block;
+  }
+  #box2 {
+    display: block;
+  }
+  .drop {
+    margin-top: 15px;
+  }
+  .trophy1,
+  .trophy2 {
+    display: none;
+  }
+}
